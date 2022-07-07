@@ -1,0 +1,39 @@
+h1 {
+  background-color: blue;
+  text-align: center;
+  color: beige;
+}
+
+.flex {
+  display: flex;
+}
+aside {
+  width: 28%;
+  margin-right: 30px;
+}
+section {
+  width: 70%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.location {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  padding: 10px;
+  background-color: navy;
+  color: white;
+  width: 100%;
+  margin-right: 20px;
+}
