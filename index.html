@@ -9,60 +9,61 @@
     <aside>
       <h2>Search for a City:</h2>
       <input type="text" id="search-input" />
-      <button type="button">Search</button>
+      <button id="search" type="button">Search</button>
 
-      <div class="column">
-        <button type="button">Austin</button>
-        <button type="button">Chicago</button>
-        <button type="button">New York</button>
-        <button type="button">Orlando</button>
-        <button type="button">San Francisco</button>
-        <button type="button">Seattle</button>
-        <button type="button">Denver</button>
-        <button type="button">Atlanta</button>
-      </div>
+      <div class="column" id="search-history"></div>
     </aside>
     <section>
       <div class="location">
-        <h2>Atlanta</h2>
-        <p class="temp">Temp:</p>
-        <p class="wind">Wind:</p>
-        <p class="Humidity">Humidity:</p>
-        <p class="UV">UV Index:</p>
+        <h2 id="cityName"></h2>
+        <div class="image currentImage"></div>
+        <p class="currentTemp">Temp:</p>
+        <p class="currentWind">Wind:</p>
+        <p class="currentHumidity">Humidity:</p>
+        <p class="currentUV">UV Index: <span></span></p>
       </div>
       <h2>5-Day Forecast</h2>
       <div class="card-container">
         <div class="card">
-          <p class="temp">Temp:</p>
-          <p class="wind">Wind:</p>
-          <p class="Humidity">Humidity:</p>
-          <p class="UV">UV Index:</p>
+          <div class="image image1"></div>
+          <p class="temp1">Temp:</p>
+          <p class="wind1">Wind:</p>
+          <p class="humidity1">Humidity:</p>
+          <p class="UV1">UV Index:</p>
         </div>
         <div class="card">
-          <p class="temp">Temp:</p>
-          <p class="wind">Wind:</p>
-          <p class="Humidity">Humidity:</p>
-          <p class="UV">UV Index:</p>
+          <div class="image image2"></div>
+          <p class="temp2">Temp:</p>
+          <p class="wind2">Wind:</p>
+          <p class="humidity2">Humidity:</p>
+          <p class="UV2">UV Index:</p>
         </div>
         <div class="card">
-          <p class="temp">Temp:</p>
-          <p class="wind">Wind:</p>
-          <p class="Humidity">Humidity:</p>
-          <p class="UV">UV Index:</p>
+          <div class="image image3"></div>
+          <p class="temp3">Temp:</p>
+          <p class="wind3">Wind:</p>
+          <p class="humidity3">Humidity:</p>
+          <p class="UV3">UV Index:</p>
         </div>
         <div class="card">
-          <p class="temp">Temp:</p>
-          <p class="wind">Wind:</p>
-          <p class="Humidity">Humidity:</p>
-          <p class="UV">UV Index:</p>
+          <div class="image image4"></div>
+          <p class="temp4">Temp:</p>
+          <p class="wind4">Wind:</p>
+          <p class="humidity4">Humidity:</p>
+          <p class="UV4">UV Index:</p>
         </div>
         <div class="card">
-          <p class="temp">Temp:</p>
-          <p class="wind">Wind:</p>
-          <p class="Humidity">Humidity:</p>
-          <p class="UV">UV Index:</p>
+          <div class="image image5"></div>
+          <p class="temp5">Temp:</p>
+          <p class="wind5">Wind:</p>
+          <p class="humidity5">Humidity:</p>
+          <p class="UV5">UV Index:</p>
         </div>
       </div>
     </section>
   </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="assets/script.js"></script>
+  
 </body>
