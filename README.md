@@ -13,4 +13,4 @@ Server-Side APIs Challenge
 ### WHEN I click on a city in the search history
 ### THEN I am again presented with current and future conditions for that city
 
-![image](assets/weather-app.png.png)
+![image](assets/weather-app.png)
